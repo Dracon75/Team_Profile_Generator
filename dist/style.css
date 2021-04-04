@@ -1,0 +1,63 @@
+p{
+    font-size: 26px;
+    margin-left: 8px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h1, h2, p {
+    margin-top: 0;
+    margin-bottom: 5px;
+    margin-left: 8px;
+ }
+ 
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    background-color: #800000;
+    color: whitesmoke;
+    margin-bottom: 30px;
+  }
+
+.cards{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.card {
+    height: 500px;
+    width: 375px;
+    box-shadow: 5px 5px rgb(65, 63, 63);
+    border-radius: 25px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+
+.flexboxContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    
+    position: relative;
+    height: 35%;
+    width: 100%;
+    max-width: 375px;
+    color: black;
+    background-color: teal;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    margin-bottom: 30px;
+}
